@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#logo-image {
+  margin: 20;
+  height: 40px;
+}
+
+#flex {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+#left-pane {
+  background-color: #099dfd;
+  height: 100%;
+  padding: 50px 90px 50px 90px;
+  text-align: center;
+}
+
+#info-text-div {
+  margin-top: 100px;
+}
+
+#info-text {
+  color: white;
+}
+
+#video-image {
+  height: 200px;
+}
+
+#right-pane {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#highlighted {
+  color: #099dfd;
+}
+
+input {
+  border: 2px solid #099dfd;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 250px;
+  height: 25px;
+}
+
+#login-text {
+  margin-bottom: 30px;
+}
+
+#login-button {
+  color: rgb(165, 135, 135);
+  background-color: #099dfd;
+  border: 2px solid #099dfd;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 60px;
+  height: 25px;
+}
